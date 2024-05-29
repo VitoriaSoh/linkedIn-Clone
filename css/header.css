@@ -1,0 +1,100 @@
+
+header {
+    background-color: var(--brancocolor);
+    color: var(--cinzaescuro);
+
+    width: 100%;
+    height: 62px;
+    
+    border-bottom: 1px solid var(--sombra);
+
+    display: flex;
+    justify-content: center;
+    
+}
+
+.caixa_header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 62px;
+    width: 1130px;
+
+
+}
+
+.icone {
+    display: flex;
+    align-items: center;   
+    
+}
+
+
+.icone img {
+    width: 45px;
+    padding-right: 5px;
+
+}
+    
+header input {
+    background-color: var(--cinzapesquisar);
+
+    border: 2px solid var(--cinzapesquisar);
+    border-radius: 4px;
+    
+    width: 275px;
+    height: 37px;
+     
+}
+
+.ancoras {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-left: 110px;
+   
+}
+
+.opcoes_header {
+    margin: 0 15px;
+    
+}
+
+.opcoes_header svg {
+    width: 23px;
+    height: 23px;   
+    fill: var(--cinzaescuro); 
+    margin-bottom: 5px;
+}
+
+.opcoes_header a {
+    font-size: 13px;
+    text-decoration: none;
+    color: var(--cinzaescuro);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.para_negocios svg {
+    width: 10px;   
+    fill: var(--cinzaescuro);
+}
+
+.para_negocios a {
+    font-size: 13px;
+    color: var(--cinzaescuro);
+
+    text-decoration: none;
+}
+.premium a {
+    text-decoration: underline;
+    color: var(--douradopremium);
+    font-size: 13px;
+}
